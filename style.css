@@ -1,0 +1,28 @@
+.contianer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+img{
+    height: 300px;
+    width: 450px;
+    background-size: cover;
+    border-radius: 5px;
+}
+span{
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+span:hover{
+    background-color: rgb(9, 109, 109);
+    color: white;
+    transition: .50s;
+}
